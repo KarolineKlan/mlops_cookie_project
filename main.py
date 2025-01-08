@@ -1,7 +1,8 @@
-import mlops_cookie_project1.data as data 
+import mlops_cookie_project1.data as data
 import mlops_cookie_project1.evaluate as evaluate
 import mlops_cookie_project1.train as train
 import mlops_cookie_project1.visualize as visualize
+
 
 def main():
     # Run them in the correct order

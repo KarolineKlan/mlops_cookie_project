@@ -27,6 +27,14 @@ dev = {file = ['requirements_dev.txt']}
 
 [tool.ruff]
 line-length = 120
+[tool.ruff.lint]
+select = ["I"]
 
 [tool.coverage.run]
 omit = ["tests/*"]
+
+[project.scripts]
+train = "mlops_cookie_project1.train:train"
+evaluate = "mlops_cookie_project1.evaluate:evaluate"
+visualize = "mlops_cookie_project1.visualize:visualize"
+
