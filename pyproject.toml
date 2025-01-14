@@ -35,6 +35,5 @@ omit = ["tests/*"]
 
 [project.scripts]
 train = "mlops_cookie_project1.train:train"
-evaluate = "mlops_cookie_project1.evaluate:evaluate"
-visualize = "mlops_cookie_project1.visualize:visualize"
+
 

@@ -1,0 +1,13 @@
+program: src/mlops_cookie_project1/train.py
+method: grid
+name: bayes
+project: corrupt_mnist  # change this
+entity: karolineklan  # change this
+metric:
+    goal: minimize
+    name: validation_loss
+parameters:
+  lr:
+    values: [0.001, 0.01, 0.1]
+  batch-size:
+    values: [16, 32, 64]
