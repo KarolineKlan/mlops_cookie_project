@@ -1,8 +1,9 @@
 import matplotlib.pyplot as plt
 import torch
 import typer
+from sklearn.metrics import RocCurveDisplay, accuracy_score, f1_score, precision_score, recall_score
+
 import wandb
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, RocCurveDisplay
 from mlops_cookie_project1.data import corrupt_mnist
 from mlops_cookie_project1.model import MyAwesomeModel
 

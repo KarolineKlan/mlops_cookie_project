@@ -1,5 +1,6 @@
 import torch
 import typer
+
 from mlops_cookie_project1.data import corrupt_mnist
 from mlops_cookie_project1.model import MyAwesomeModel
 

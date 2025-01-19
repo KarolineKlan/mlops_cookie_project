@@ -1,9 +1,11 @@
-from torch.utils.data import Dataset
+import os
+
+import pytest
 import torch
+from torch.utils.data import Dataset
+
 from mlops_cookie_project1.data import corrupt_mnist
 from tests import _PATH_DATA
-import pytest
-import os
 
 data_file_path = os.path.join(_PATH_DATA, "raw")
 

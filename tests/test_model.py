@@ -1,6 +1,7 @@
-from mlops_cookie_project1.model import MyAwesomeModel
-import torch
 import pytest
+import torch
+
+from mlops_cookie_project1.model import MyAwesomeModel
 
 
 @pytest.mark.parametrize("batch_size", [32, 64])
