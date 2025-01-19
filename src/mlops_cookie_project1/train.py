@@ -9,7 +9,6 @@ from mlops_cookie_project1.model import MyAwesomeModel
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
 
-
 def train(lr: float = 0.001, batch_size: int = 32, epochs: int = 5) -> None:
     """Train a model on MNIST."""
     print("Training day and night")
