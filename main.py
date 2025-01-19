@@ -18,5 +18,6 @@ def main():
     visualize.visualize("models/model.pth")
     print("Model visualized")
 
+
 if __name__ == "__main__":
     main()
